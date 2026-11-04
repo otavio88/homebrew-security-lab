@@ -1,11 +1,10 @@
-
 class SecurityLab < Formula
   desc "Homebrew WSL Kubernetes security validation lab"
   homepage "https://github.com/otavio88/homebrew-security-lab"
 
   url "https://github.com/otavio88/homebrew-security-lab.git",
       using: :git,
-      branch: "main"
+      tag: "v1.0.0"
 
   version "1.0.0"
 
